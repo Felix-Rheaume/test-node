@@ -7,7 +7,7 @@ const app = express();
 app.use((req, res) => {
 
     // permet de retourner la réponse en format JSON
-    res.json({ message: 'Votre requête a bien été reçue !' }); 
+    res.json({ message: 'Lawrence c\'est le plus beau et le meilleur programmeur après Martin Simoneau' }); 
  });
 
 module.exports = app;
